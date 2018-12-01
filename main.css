@@ -43,7 +43,16 @@ nav a {
 }
 
 content {
+  display: flex;
+  flex-direction: column;
+}
 
+.event-info {
+  width: 80%;
+  padding: 2em 5em;
+  align-self: center;
+  text-align: center;
+  font-size: 20px;
 }
 
 footer {
