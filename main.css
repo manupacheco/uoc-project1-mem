@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+} 
+
+nav {
+  background-color: red;
+  height: 150px;
+  width: 100%;
+}
+
+content {
+  background-color: blue;
+  min-width: 100px;
+}
+
+footer {
+  background-color: green;
+  height: 150px;
+  width: 100%;
+} 
